@@ -1,0 +1,92 @@
+* {
+    cursor: default;
+    color: white;
+}
+
+html {
+    background: linear-gradient(-50deg, rgb(10, 35, 55), rgb(6, 19, 34));
+    height: 100%;
+}
+
+#output {
+    /* font-size: 25px;
+    font-weight: bold;
+    border: 3px solid black;
+    width: 300px;
+    margin: 25px auto 0 auto; */
+    display: none;
+    font-size: 20px;
+    padding: 10px;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 10px;
+    background-color: #9a4700;
+    color: black;
+    width: 250px;
+    border-radius: 10px;
+    text-wrap: wrap;
+    box-shadow: 5px 5px;
+}
+
+#title p {
+    font-size: 20px;
+    margin-top: -53px;
+    margin-left: -440px;
+}
+
+#title {
+    margin-bottom: 100px;
+    font-size: 30px;
+    text-shadow: 3px 3px 2px black;
+}
+
+
+
+#title,
+form,
+#output {
+    text-align: center;
+}
+
+form * {
+    margin-top: 20px;
+    color: black;
+}
+label {
+    font-size: 20px;
+    color: white;
+}
+
+#number {
+    border: none;
+    height: 30px;
+    border-bottom: 2px solid #9a4700;
+    cursor: text;
+    font-size: 15px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+#number:focus {
+    border: 1.5px solid #6c3301;
+    border-radius: 10px;
+}
+
+button {
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    
+}
+
+button:hover {
+    background-color: #9a4700;
+    border-color: grey;
+    transform: translateY(-3px) translateX(-3px);
+    box-shadow: 3px 3px;
+    transition-duration: 500ms;
+}
+
+button:active {
+    background-color: #6c3301;
+}
